@@ -1,0 +1,31 @@
+{
+  "name": "presentation-server",
+  "version": "1.0.0",
+  "description": "Serve HTML based presentations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-as-bcarter:bcarter/presentation-server.git"
+  },
+  "keywords": [
+    "impress.js",
+    "presentation",
+    "remote",
+    "screensharing",
+    "reveal.js"
+  ],
+  "dependencies": {
+    "basic-auth-connect": "^1.0.0",
+    "express": "4.x.x",
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-develop": "^0.4.0",
+    "request": "^2.83.0",
+    "socket.io": "2.x.x"
+  },
+  "author": "Blaine Carter",
+  "license": "MIT"
+}
